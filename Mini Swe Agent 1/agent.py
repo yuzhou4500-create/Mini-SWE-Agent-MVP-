@@ -9,7 +9,7 @@ if not API_KEY:
     raise RuntimeError("请先在终端设置环境变量 DASHSCOPE_API_KEY！")
 
 BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
-MODEL_NAME = "qwen-plus"
+MODEL_NAME = "qwen4-max"
 
 SYSTEM_PROMPT = """你是一个能操作本地文件的编程助手，请善用工具完成任务。
 
